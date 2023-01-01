@@ -1,6 +1,9 @@
 # Android-Note-App
 ## This is an android app. 
 ## Technology: Android studio, Java, Firebase
+This android project is the best practice android project to learn Firebase. That important topics are implemented in this project as follows:
+* Firebase authentication to Signin and Signup.
+* Firestore Database to store note data to the firebase.
 
 
 ![Screenshot_1](https://user-images.githubusercontent.com/105268491/210168543-9e568d0c-50e8-466e-986b-71d12620dcab.png)
