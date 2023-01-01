@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "781243397795",
+    "project_id": "noteapplication-d9454",
+    "storage_bucket": "noteapplication-d9454.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781243397795:android:fa65852c3abf7c20357116",
+        "android_client_info": {
+          "package_name": "com.badrulacademy.noteapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781243397795-3b69lnsn3d6kmmpuaqaf52bcf8d0latu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNBaWbPxwT9c-fVWc2TUjMP8u1SWR-fH0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781243397795-3b69lnsn3d6kmmpuaqaf52bcf8d0latu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

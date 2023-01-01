@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoteDetails">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBarOfNoteDetails_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        >
+        <TextView
+            android:id="@+id/titleOfNoteDetails_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="12dp"
+            android:textSize="22sp"
+            android:text="Title in NoteDetails"
+            />
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/contentOfNoteDetails_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="16sp"
+        android:hint="Here will be the detail content of our note"
+        android:textColor="@color/black"
+        android:gravity="top|start"
+        android:layout_below="@id/toolBarOfNoteDetails_id"
+        android:padding="15dp"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/gotoEditNote_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/edit_icon"
+        android:background="#FF5722"
+        app:maxImageSize="40dp"
+        >
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+</RelativeLayout>
